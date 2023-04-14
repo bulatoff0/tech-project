@@ -1,0 +1,26 @@
+.benefits {
+    display: flex;
+
+    .benefits__icon {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .benefits__info {
+        margin-left: 10px;
+
+        .benefits__title {
+            font-size: 22px;
+            font-family: 'Mada', sans-serif;
+            font-weight: 700;
+            margin: 20px 0 10px 0;
+            color: #1e1e1e;
+        }
+
+        .benefits__descr {
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            color: #4e4e4e;
+        }
+    }
+}

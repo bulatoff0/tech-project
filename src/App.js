@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import CleanAirBenefits from "./components/CleanAirBenefits";
+import OurWorks from "./components/OurWorks";
+import OurWorksPopup from "./components/OurWorksPopup";
+import ScopeOfApplications from "./components/ScopeOfApplications";
+import WhyUs from "./components/WhyUs";
 
 function App() {
+    // const [popupActive, setPopupActive] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div className="App">
+            <WhyUs />
+            <OurWorks />
+            {/* <OurWorksPopup active={popupActive} setActive={setPopupActive} /> */}
+            <CleanAirBenefits />
+            <ScopeOfApplications />
+        </div>
   );
 }
 

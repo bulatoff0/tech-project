@@ -1,0 +1,24 @@
+.cl-air-benefits {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    .cl-air-benefits__img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .cl-air-benefits__title {
+        font-size: 32px;
+        font-family: 'Mada', sans-serif;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #1e1e1e;
+    }
+
+    .cl-air-benefits__descr {
+        font-size: 23px;
+        font-family: 'Poppins', sans-serif;
+        color: #4e4e4e;
+    }
+}
