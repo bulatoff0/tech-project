@@ -1,0 +1,36 @@
+.nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+
+  .nav__row {
+   display: flex;
+   align-items: center;
+    gap: 50px;
+    height: 80px;
+    z-index: 2000;
+    position: absolute;
+    top: 0;
+
+    .nav__logo {
+      font-size: 35px;
+    }
+
+    button {
+      width: 180.02px;
+      height: 40px;
+      background-color: #2974e2;
+      border-radius: 30px;
+      border: none;
+      color: white;
+      font-weight: 700;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #000;
+        color: #fff; 
+        transition: .5s ease;
+      }
+    }
+  }
+}

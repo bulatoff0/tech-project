@@ -4,7 +4,7 @@ import './WhyUs.scss'
 
 const WhyUs = () => {
   return (
-    <div>
+    <div className="container">
       <span className="title">Мы спросили наших клиентов, почему они выбрали нас:</span>
 
       <div className="benefits-grid">

@@ -42,7 +42,13 @@
 
     .popup__title {
         font-size: 32px;
-        font-family: 'mada';
-        margin: 0;
+        font-family: 'rubik';
+        margin-bottom: 20px;
+    }
+
+    .popup__descr {
+        margin: 20px 0;
+        font-size: 18px;
+        font-family: 'poppins';
     }
 }

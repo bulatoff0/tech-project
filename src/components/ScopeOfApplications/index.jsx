@@ -9,11 +9,11 @@ import office from '../../resources/img/office.jpg'
 
 /* static text */
 const componentTexts = {
-    'APARTS_DESCR': 'Компактные вентиляционные установки для квартир не требуют дополнительного места. Они встраиваются в кухонную мебель и одновременно работают как вытяжка.',
+    'APARTS_DESCR': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi placeat non quia blanditiis fuga dolores voluptatum quibusdam eius est odio.',
 
-    'HOUSE_DESCR': 'Приточно-вытяжная вентиляция загородного дома экономит до 75% тепловой энергии, и даёт возможность установить панорамные окна без открывания.',
+    'HOUSE_DESCR': 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illum ab minima dolores id adipisci voluptates tempora, reprehenderit eos nulla.',
 
-    'OFFICE_DESCR': 'Постоянный обмен воздуха в помещении способствует повышению продуктивности и снижению риска деменции (способность мыслить креативно).',
+    'OFFICE_DESCR': 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla labore vitae architecto perspiciatis! Vitae exercitationem officiis repellat ipsam, quisquam ut.',
 }
 
 const ScopeOfApplications = () => {

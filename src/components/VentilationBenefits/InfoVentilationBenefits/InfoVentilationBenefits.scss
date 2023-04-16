@@ -1,0 +1,26 @@
+.container {
+  width: 360px;
+  height: 283px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+
+  h2 {
+    font-family: "Mada", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 32px 0 12px 30px;
+  }
+
+  p {
+    margin: 0 30px 0 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+  }
+}

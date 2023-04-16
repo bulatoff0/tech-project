@@ -31,7 +31,7 @@ const Calculator = () => {
         const squareMetersInput = document.getElementById('squareMeters')
         const squares = squareMetersInput.value;
         const selectValue = {value}.value.value;
-        const RESULT_PRICE = 'Итоговая стоимость будет составлять: ';
+        const RESULT_PRICE = 'Итоговая стоимость будет составлять ';
         const RESULT_PRICE_CURRENCY = ' рублей' 
         const RESULT_ERROR = 'Вы пропустили одно из полей!'
 

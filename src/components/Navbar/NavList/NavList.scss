@@ -1,0 +1,23 @@
+.nav-list {
+     display: flex;
+     gap: 30px;
+     list-style: none;
+     font-family: 'mada';
+     font-weight: 700;
+
+    .nav-list__item {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #2e2e2e;
+        padding: 5px;
+        cursor: pointer;
+
+        &:hover {
+            transform: translateY(-4px);
+            background-color: #fff;
+            border-radius: 20px;
+            transition: .3s ease;
+        }
+      }
+}

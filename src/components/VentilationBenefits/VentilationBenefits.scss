@@ -1,0 +1,22 @@
+.benefits-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Mada", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 52px;
+
+  color: #2974e2;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: 29% 29% 29%;
+  grid-gap: 40px;
+  margin-top: 92px;
+  justify-content: center;
+  align-content: center;
+}

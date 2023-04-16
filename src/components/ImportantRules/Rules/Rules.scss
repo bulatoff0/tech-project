@@ -1,0 +1,26 @@
+.blocks {
+  display: flex;
+  max-width: 500px;
+  margin: 0 40px 100px 0;
+
+  img {
+    margin-right: 20px;
+    width: 90px;
+    height: 76px;
+  }
+
+  h2 {
+    font-family: "Mada", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 11px;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+  }
+}

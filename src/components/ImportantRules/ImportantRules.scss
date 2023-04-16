@@ -1,0 +1,18 @@
+.header-rules {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 77px 0 107px 0;
+  font-family: "mada", sans-serif;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 52px;
+  color: #2974e2;
+}
+
+.rules-block {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  gap: 40px;
+}

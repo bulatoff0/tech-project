@@ -8,23 +8,18 @@ const OurWorksCard = (props) => {
     return (
         <div>
             <OurWorksPopup active={popupActive} setActive={setPopupActive}>
-                {}
                 <div className='popup popup__info'>
                     <h3 className='popup__title'>
                         Наша работа #1
                     </h3>
 
-                    <p>Описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание.</p>
-                    
-                    <p>Описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание.</p>
+                    <p className='popup__descr'>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, aut. Aperiam natus obcaecati non nostrum illo nobis assumenda magnam accusamus distinctio, placeat commodi nulla corporis beatae totam odio tenetur possimus harum dolore hic veritatis iusto optio! Possimus sequi blanditiis odio sit labore aspernatur fugit facere nesciunt! Sed voluptas temporibus corporis? Nostrum quibusdam quas, cupiditate neque deleniti sint quae temporibus. Aliquam, repudiandae assumenda! Velit tempore aut, illo dolor amet quis dolore vero quia eaque aperiam consequuntur error officia beatae eum ad rem accusamus vel molestiae. Non eius saepe eaque assumenda consequatur commodi, dolores ipsum cum amet veritatis, vitae natus ut laborum.
+                    </p>
 
-                    <p>Описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание.</p>
-
-                    <p>Описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание.</p>
-
-                    <p>Описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание описание.</p>
-
-                    <p>*Можно спокойно добавить изображения и любой другой текст, иконки.*</p>
+                    <p className='popup__descr'>
+                        *Можно спокойно добавить изображения и любой другой текст, иконки.*
+                    </p>
                 </div>
             </OurWorksPopup>
 

@@ -1,0 +1,40 @@
+.description {
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
+
+  p {
+    margin-top: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+  }
+}
+
+.info-services {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+  display: block;
+  margin: 20px auto;
+  width: 261.09px;
+  height: 60px;
+  background: #2974e2;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'mada';
+
+  &:hover {
+    background-color: #000;
+    transition: .5s ease;
+  }
+}

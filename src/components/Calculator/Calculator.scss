@@ -59,9 +59,13 @@
 
     .calculator__result {
         text-align: center;
-        color: darkred;
+        color: #2e2e2e;
+        // background-color: rgba(0, 0, 0, .3);
+        // border-radius: 4px;
+        // padding: 20px;
         font-size: 22px;
-        font-weight: 700;
-        font-family: 'mada';
+        font-weight: 300;
+        font-family: 'rubik';
+        margin-top: 30px;
     }
 }
