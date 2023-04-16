@@ -1,0 +1,67 @@
+.calculator {
+    max-width: 900px;
+    margin: 0 auto;
+    
+    .calculator__select {
+        font-size: 16px;
+        font-family: 'mada';
+    }
+
+    .calculator__square-meters {
+        width: 880px;
+        height: 15px;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #a2a2a2;
+        margin-top: 20px;
+
+        font-size: 17px;
+        font-family: 'poppins';
+        font-weight: 700;
+
+        &::placeholder {
+            font-size: 17px;
+            font-family: 'poppins';
+            font-weight: 700;
+            color: gray;
+        }
+
+        &:focus {
+            outline: 1px solid #2684ff ;
+            // outline: none;
+            // border: 1px solid #2684ff;
+            transition: outline .3s;
+        }
+    }
+
+    .calculator__count-btn {
+        cursor: pointer;
+        width: 900px;
+        // height: 36.6px;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #a2a2a2;
+        margin-top: 20px;
+        background-color: #fff;
+
+        color: #1e1e1e;
+        font-family: 'poppins';
+        font-weight: 700;
+        font-size: 22px;
+
+        &:hover {
+            background-color: #1e1e1e;
+            color: #fff;
+
+            transition: 0.5s ease;
+        }
+    }
+
+    .calculator__result {
+        text-align: center;
+        color: darkred;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: 'mada';
+    }
+}
