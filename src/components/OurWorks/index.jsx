@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import OurWorksCard from '../OurWorksCard'
 import './OurWorks.scss'
 
@@ -11,14 +11,15 @@ import resComplex3 from '../../resources/img/resComplex3.jpg'
 const OUR_WORKS_DESCR = 'Описание нашей работы описание нашей работы Описание нашей работы описание нашей работы Описание нашей работы описание нашей работы. Подробнее...'
 
 const OurWorks = () => {
+    
   return (
     <div className='container'>
         <span className='title'>Наши работы:</span>
 
         <div className='our-works-container'>
-            <OurWorksCard  img={resComplex} title={'Наша работа #1'} descr={OUR_WORKS_DESCR} />
-            <OurWorksCard img={resComplex2} title={'Наша работа #2'} descr={OUR_WORKS_DESCR} />
-            <OurWorksCard img={resComplex3} title={'Наша работа #3'} descr={OUR_WORKS_DESCR} />
+            <OurWorksCard  img={resComplex} title={'Наша работа #1'} descr={OUR_WORKS_DESCR} cardId={1} />
+            <OurWorksCard img={resComplex2} title={'Наша работа #2'} descr={OUR_WORKS_DESCR} cardId={2} />
+            <OurWorksCard img={resComplex3} title={'Наша работа #3'} descr={OUR_WORKS_DESCR} cardId={3} />
         </div>
     </div>
   )

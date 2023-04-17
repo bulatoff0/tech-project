@@ -10,7 +10,9 @@ const OurWorksCard = (props) => {
             <OurWorksPopup active={popupActive} setActive={setPopupActive}>
                 <div className='popup popup__info'>
                     <h3 className='popup__title'>
-                        Наша работа #1
+                        {props.cardId === 1 && 'Наша работа #1'}
+                        {props.cardId === 2 && 'Наша работа #2'}
+                        {props.cardId === 3 && 'Наша работа #3'}
                     </h3>
 
                     <p className='popup__descr'>
