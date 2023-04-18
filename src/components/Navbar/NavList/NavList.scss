@@ -10,14 +10,15 @@
         font-weight: 700;
         font-size: 18px;
         color: #2e2e2e;
-        padding: 5px;
+        padding: 10px;
         cursor: pointer;
+        border-radius: 10px;
 
         &:hover {
             transform: translateY(-4px);
+            border-radius: 25px;
             background-color: #fff;
-            border-radius: 20px;
-            transition: .3s ease;
+            transition: .4s ease;
         }
       }
 }

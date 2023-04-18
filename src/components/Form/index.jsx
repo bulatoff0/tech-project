@@ -38,54 +38,52 @@ export const Form = () => {
         .catch(() => alert("Ошибка"));
       return;
     }
+
     return alert("Заполните все поля, чтоб продолжить");
   }
 
   return (
     <div>
-      <div className="container-form">
-        <form
-          action="#"
-          className="form"
-          method="POST"
-          encType="multipart/form-data"
-        >
-          <label className="form__label">
-            <input
-              className="input input-name"
-              type="text"
-              id="имя"
-              onChange={(e) => setName(e.target.value)}
-              placeholder="Введите имя"
-              required
-            />
-          </label>
-          <label className="form__label">
-            <input
-              className="input input-mail"
-              type="email"
-              id="email"
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Введите email"
-              required
-            />
-          </label>
-          <label className="form__label">
-            <textarea
-              className="textarea"
-              id="message"
-              onChange={(e) => setMessage(e.target.value)}
-              cols="60"
-              rows="4"
-              placeholder="Введите ваше сообщение"
-              required
-            ></textarea>
-          </label>
-          <button onClick={() => sendMail()} type="submit" className="form-btn">
-            Отправить
-          </button>
-        </form>
-      </div>
+        <div className="container-form">
+            <form
+                action="#"
+                className="form"
+                method="POST"
+                encType="multipart/form-data"
+            >
+                <input
+                className="input input-name"
+                type="text"
+                id="имя"
+                onChange={(e) => setName(e.target.value)}
+                placeholder="Введите имя"
+                required
+                />
+
+                <input
+                className="input input-mail"
+                type="email"
+                id="email"
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Введите email"
+                required
+                />
+
+                <textarea
+                    className="textarea"
+                    id="message"
+                    onChange={(e) => setMessage(e.target.value)}
+                    cols="60"
+                    rows="4"
+                    placeholder="Введите ваше сообщение"
+                    required
+                ></textarea>
+          
+                <button onClick={() => sendMail()} type="submit" className="form-btn">
+                    Отправить
+                </button>
+            </form>
+        </div>
     </div>
   );
 };

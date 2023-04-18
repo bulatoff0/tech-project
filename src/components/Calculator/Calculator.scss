@@ -1,5 +1,5 @@
 .calculator {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     
     .calculator__select {
@@ -7,20 +7,21 @@
         font-family: 'mada';
     }
 
-    .calculator__square-meters {
-        width: 880px;
+    .calculator__square-meters, .calculator__ceiling-height, .calculator__phone-number, .calculator__email {
+        width: calc(100% - 31px);
         height: 15px;
-        padding: 10px;
+        padding: 15px;
         border-radius: 4px;
         border: 1px solid #a2a2a2;
         margin-top: 20px;
+        margin-bottom: 20px;
 
         font-size: 17px;
         font-family: 'poppins';
         font-weight: 700;
 
         &::placeholder {
-            font-size: 17px;
+            font-size: 20px;
             font-family: 'poppins';
             font-weight: 700;
             color: gray;
@@ -34,35 +35,139 @@
         }
     }
 
+    .calculator__phone-number {
+        margin-top: 40px;
+    }
+
+    .calculator__email {
+        margin-top: 0;
+    }
+
+    .kitchen-square, .living-room-square {
+        margin-bottom: 20px;
+
+        .kitchen-square__title, .living-room__title {
+            font-size: 20px;
+            font-family: 'rubik';
+            font-weight: 700;
+        }
+    
+        .kitchen-square__input, .living-room__input {
+            outline: none;
+            margin-top: 10px;
+            width: 100%;
+        }
+    
+        .kitchen-square__range, .living-room__range {
+            display: flex;
+            justify-content: space-between;
+    
+            .kitchen-square__min, .kitchen-square__max {
+                font-family: 'poppins';
+                font-size: 18px;
+            }
+    
+            .living-room__min, .living-room__max {
+                font-family: 'poppins';
+                font-size: 18px;
+                font-weight: 400;
+            }
+    
+            .kitchen-square__current-value, .living-room__current-value {
+                font-size: 20px;
+                font-family: 'rubik';
+                font-weight: 700;
+            }
+        }
+    }
+    
+    .living-room-square {
+        margin: 0;
+    }
+
+    .floors, .bathrooms, .bedrooms {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: end;
+
+        .negative-btn, .plus-btn {
+            width: 48px;
+            height: 48px;
+            background-color: transparent;
+            border: 1px solid #a2a2a2;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            
+            font-size: 20px;
+            font-family: 'poppins';
+
+            &:active {
+                background-color: #efefef;
+                border-color: #2684ff;
+                // transition: .2s;
+            }
+        }
+
+        .floors__input, .bathrooms__input, .bedrooms__input {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            margin-top: 20px;
+            text-align: center;
+
+            label {
+                font-size: 20px;
+                font-family: 'rubik';
+                font-weight: 700;
+            }
+
+            input {
+                outline: none;
+                padding: 11px;
+                border: 1px solid #a2a2a2;
+                border-radius: 4px;
+
+                font-family: 'poppins';
+                font-weight: 700;
+                font-size: 17px;
+                text-align: center;
+
+                &:focus {
+                    outline: 1px solid #2684ff;
+                    transition: .3s ease;
+                }
+            }
+        }
+    }
+
     .calculator__count-btn {
         cursor: pointer;
-        width: 900px;
-        // height: 36.6px;
+        width: 100%;
         padding: 10px;
         border-radius: 4px;
         border: 1px solid #a2a2a2;
-        margin-top: 20px;
         background-color: #fff;
 
         color: #1e1e1e;
-        font-family: 'poppins';
+        font-family: 'rubik';
         font-weight: 700;
         font-size: 22px;
 
         &:hover {
             background-color: #1e1e1e;
             color: #fff;
-
             transition: 0.5s ease;
         }
     }
 
-    .calculator__result {
+    .calculator__message {
         text-align: center;
         color: #2e2e2e;
-        // background-color: rgba(0, 0, 0, .3);
-        // border-radius: 4px;
-        // padding: 20px;
+        /* background-color: rgba(0, 0, 0, .3);
+        border-radius: 4px;
+        padding: 20px; */
         font-size: 22px;
         font-weight: 300;
         font-family: 'rubik';

@@ -15,6 +15,7 @@ function App() {
             <Header />
             <Info />
             <CleanAirBenefits />
+            {/* <VentilationBenefits /> */}
             <ScopeOfApplications />
             <ImportantRules />
             <WhyUs />
