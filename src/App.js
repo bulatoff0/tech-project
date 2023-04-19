@@ -8,6 +8,7 @@ import { Info } from './components/Info';
 import { Footer } from './components/Footer';
 import { ImportantRules } from './components/ImportantRules'
 import { Contacts } from "./components/Сontacts";
+import VentilationBenefits from "./components/VentilationBenefits";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Header />
             <Info />
             <CleanAirBenefits />
-            {/* <VentilationBenefits /> */}
+            <VentilationBenefits />
             <ScopeOfApplications />
             <ImportantRules />
             <WhyUs />

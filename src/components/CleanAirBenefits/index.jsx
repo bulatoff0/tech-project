@@ -1,6 +1,6 @@
 import React from 'react'
-import CleanAirBenefitLeft from '../CleanAirBenefitLeft'
-import CleanAirBenefitRight from '../CleanAirBenefitRight'
+import CleanAirBenefitLeft from './CleanAirBenefitLeft'
+import CleanAirBenefitRight from './CleanAirBenefitRight'
 import mountains from '../../resources/img/mountains.png'
 import './CleanAirBenefits.scss'
 

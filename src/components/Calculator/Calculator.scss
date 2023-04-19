@@ -28,19 +28,43 @@
         }
 
         &:focus {
-            outline: 1px solid #2684ff ;
-            // outline: none;
-            // border: 1px solid #2684ff;
-            transition: outline .3s;
+            outline: 1px solid #2684ff;
+            transition: .3s;
         }
+
+        /* &:focus::placeholder {
+            transform: translateY(-40px);
+            transition: .5s;
+        } */
     }
 
     .calculator__phone-number {
+        margin-top: 0;
+    }
+    
+    .phone-number-error {
         margin-top: 40px;
+        color: red;
+        font-size: 16px;
+        font-family: 'rubik';
+        font-weight: 700;
+        line-height: 30px;
     }
 
     .calculator__email {
         margin-top: 0;
+
+        /* &:invalid:not(:placeholder-shown) {
+            outline: 1px solid red;
+        } */
+    }
+
+    .email-error {
+        color: red;
+        font-size: 16px;
+        font-family: 'rubik';
+        font-weight: 700;
+        line-height: 30px;
     }
 
     .kitchen-square, .living-room-square {
@@ -161,16 +185,27 @@
             transition: 0.5s ease;
         }
     }
+}
 
-    .calculator__message {
-        text-align: center;
-        color: #2e2e2e;
-        /* background-color: rgba(0, 0, 0, .3);
-        border-radius: 4px;
-        padding: 20px; */
-        font-size: 22px;
-        font-weight: 300;
-        font-family: 'rubik';
-        margin-top: 30px;
-    }
+.submit-message {
+    text-align: center;
+    color: #2e2e2e;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'rubik';
+    margin-top: 70px;
+}
+
+.submit-error-message {
+    text-align: center;
+    color: #2e2e2e;
+    /* background-color: rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    padding: 20px; */
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'rubik';
+    margin-top: 30px;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './ScopeOfApplications.scss'
-import ScopeOfAppItem from '../ScopeOfAppltem'
+import ScopeOfAppItem from './ScopeOfAppltem'
 
 /* img's */ 
 import apartments from '../../resources/img/apartments.jpg'

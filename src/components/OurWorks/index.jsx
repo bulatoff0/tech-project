@@ -1,6 +1,6 @@
 import React from 'react'
-import OurWorksCard from '../OurWorksCard'
 import './OurWorks.scss'
+import OurWorksCard from './OurWorksCard'
 
 /* img */
 import resComplex from '../../resources/img/resComplex.jpg'

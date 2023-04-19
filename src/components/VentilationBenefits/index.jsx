@@ -1,23 +1,24 @@
-import React from "react";
-import { InfoVentilationBenefits } from "./InfoVentilationBenefits";
-import "./VentilationBenefits.scss";
+import React from 'react'
+import VentilationBenefitsCard from './VentilationBenefitsCard'
+import './VentilationBenefits.scss'
 
-export const VentilationBenefits = () => {
-  const descr =
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus in alias hic. Perspiciatis asperiores laboriosam modi esse cum beatae saepe nesciunt, assumenda natus cumque dolor?";
+const DESCR = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum possimus ab facere repellat voluptatibus et rem cumque animi, ea culpa laudantium sunt. Repudiandae, expedita aspernatur autem excepturi porro ad ea iste distinctio numquam eum perspiciatis magnam fugiat sequi maiores impedit.'
 
+const VentilationBenefits = () => {
   return (
-    <div>
-      <span className="title">Что даёт нам вентиляция</span>
+    <div className='container'>
+        <span className='title'>Что даёт нам вентиляция?</span>
 
-      <div className="ventilation-benefits">
-            <InfoVentilationBenefits title={"Заголовок"} description={descr} />
-            <InfoVentilationBenefits title={"Заголовок"} description={descr} />
-            <InfoVentilationBenefits title={"Заголовок"} description={descr} />
-            <InfoVentilationBenefits title={"Заголовок"} description={descr} />
-            <InfoVentilationBenefits title={"Заголовок"} description={descr} />
-            <InfoVentilationBenefits title={"Заголовок"} description={descr} />
-      </div>
+        <div className='ventilation-benefits-cards'>
+            <VentilationBenefitsCard title='Заголовок' descr={DESCR} />
+            <VentilationBenefitsCard title='Заголовок' descr={DESCR} />
+            <VentilationBenefitsCard title='Заголовок' descr={DESCR} />
+            <VentilationBenefitsCard title='Заголовок' descr={DESCR} />
+            <VentilationBenefitsCard title='Заголовок' descr={DESCR} />
+            <VentilationBenefitsCard title='Заголовок' descr={DESCR} />
+        </div>
     </div>
-  );
-};
+  )
+}
+
+export default VentilationBenefits
