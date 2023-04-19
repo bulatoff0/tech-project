@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './Calculator.scss'
 import Select from 'react-select';
 
+/* COMMENT */
+
 const Calculator = () => {
     const options = [
         {value: 'house', label: 'Дом'},
