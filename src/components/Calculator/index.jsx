@@ -108,7 +108,7 @@ const Calculator = () => {
 
         const re = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
 
-        if (!re.test(String(email).toLowerCase())) {
+        if (!re.test(String(event.target.value).toLowerCase())) {
             setEmailMessage('Некорректный Email адрес')
         } else {
             setEmailMessage(null);
